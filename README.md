@@ -1,25 +1,25 @@
 <div align="center">
 
-# TEMPLATE-AppImage 🐧
+# DNZHRecomp-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/TEMPLATE-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![CI Build Status](https://github.com/pkgforge-dev/TEMPLATE-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/TEMPLATE-AppImage)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/DNZHRecomp-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/DNZHRecomp-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/DNZHRecomp-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/DNZHRecomp-AppImage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/DNZHRecomp-AppImage)](https://github.com/pkgforge-dev/DNZHRecomp-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://gitlab.com/sonicdcer/DNZHRecomp/-/raw/main/icons/512.png?ref_type=heads" width="128" />
 </p>
 
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/Anylinux-AppImages) |
+| [Click here](https://github.com/pkgforge-dev/DNZHRecomp-AppImage/releases/latest) | [Click here](https://gitlab.com/sonicdcer/DNZHRecomp) |
 
 </div>
 
 ---
 
-AppImage made using [sharun](https://github.com/VHSgunzo/sharun) and its wrapper [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
+AppImage made using [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
 
 **This AppImage bundles everything and it should work on any Linux distro, including old and musl-based ones.**
 
