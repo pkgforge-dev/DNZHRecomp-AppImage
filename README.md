@@ -7,13 +7,13 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/DNZHRecomp-AppImage)](https://github.com/pkgforge-dev/DNZHRecomp-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/sonicdcer/DNZHRecomp/blob/main/icons/512.png" width="128" />
+  <img src="https://gitlab.com/sonicdcer/DNZHRecomp/-/raw/main/icons/512.png?ref_type=heads" width="128" />
 </p>
 
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/DNZHRecomp-AppImage/releases/latest) | [Click here](https://github.com/sonicdcer/DNZHRecomp) |
+| [Click here](https://github.com/pkgforge-dev/DNZHRecomp-AppImage/releases/latest) | [Click here](https://gitlab.com/sonicdcer/DNZHRecomp) |
 
 </div>
 
