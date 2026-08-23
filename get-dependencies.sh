@@ -27,7 +27,7 @@ esac
 #wget --retry-connrefused --tries=30 "$ZIP_LINK" -O /tmp/app.zip
 
 VERSION=$(wget -qO- "https://gitlab.com/api/v4/projects/sonicdcer%2FDNZHRecomp/releases?per_page=1" \
-      | sed 's/[()",{} ]//g' | grep -A2 '^tag_name$' | tail -n1)
+      | sed 's/[()",{} ]/\n/g' | grep -A2 '^tag_name$' | tail -n1)
 ZIP_LINK="https://gitlab.com/api/v4/projects/sonicdcer%2FDNZHRecomp/packages/generic/dnzhrecompiled$(echo "${zip_arch%-Release}" | tr -d '-' | tr '[:upper:]' '[:lower:]')/${VERSION}/DNZHRecompiled-${VERSION}-${zip_arch}.zip"
 echo "$VERSION" > ~/version
 wget --retry-connrefused --tries=30 "$ZIP_LINK" -O /tmp/app.zip
