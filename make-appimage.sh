@@ -8,6 +8,8 @@ export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=https://gitlab.com/sonicdcer/DNZHRecomp/-/raw/main/icons/512.png?ref_type=heads
+export DESKTOP=https://gitlab.com/sonicdcer/DNZHRecomp/-/raw/main/.github/linux/DNZHRecompiled.desktop?ref_type=heads
+export STARTUPWMCLASS=DNZHRecompiled
 export DEPLOY_GTK=1
 export GTK_DIR=gtk-3.0
 export DEPLOY_VULKAN=1
