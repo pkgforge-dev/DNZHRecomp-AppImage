@@ -6,9 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm \
-	sdl2	 	   \
-	vulkan-headers
+pacman -Syu --noconfirm sdl2-compat vulkan-headers
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
